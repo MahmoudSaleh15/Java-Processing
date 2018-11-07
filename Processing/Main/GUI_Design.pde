@@ -1,9 +1,13 @@
+/**
+* Made by Mahmoud Saleh
+*/
+
 //Font
 PFont BoldFont;
 
 void GUI_Design()
 {
-    //Lines
+  //Lines
   line(width*1/3, 0, width*1/3, height*1/4); //1
   line(width*2/3, 0, width*2/3, height*1/4); //2
   line(0, height*1/4, width, height*1/4); //3
@@ -15,8 +19,6 @@ void GUI_Design()
   line(0, height*2/12, width*1/1, height*2/12);
   
   //Square button clickers (on tick tac toe board)
-  fill(153);
-  rect(width*1/24, height*7/24, width*6/24, height*4/24); //1
   fill(153);
   rect(width*9/24, height*7/24, width*6/24, height*4/24);  //2
   fill(153);
@@ -78,4 +80,10 @@ void GUI_Design()
     
     //RESET Button text
     text("RESET GAME!", 190, 85); 
+        
+    //PLAYER #1 SCORE text
+    text("P1 SCORE: 0", 360, 35);
+        
+    //PLAYER #2 SCORE text
+    text("P2 SCORE: 0", 360, 85); 
   }
