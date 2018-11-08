@@ -56,11 +56,8 @@ void GUI_Design()
   
   //Fonts
   BoldFont = createFont("Arial Bold", 18);
-  }
-
-  void draw() 
-  {
-    //Colour for text
+  
+      //Colour for text
     fill(0, 102, 153);
     
     //Font
